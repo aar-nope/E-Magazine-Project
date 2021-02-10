@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+	<link href="https://fonts.googleapis.com/css?family=Cairo:600|Dosis:500&display=swap" rel="stylesheet">
+<!-- 	<script>
+		function val(){
+			var pass1=document.getElementById("pass1");
+			var pass2=document.getElementById("pass2");
+			if(pass1!=pass2){
+				window.alert("Password should match!")
+			}
+		}	
+	</script>	 -->
+</head>
+<body>
+	<div>
+		<img id="topimg" src="http://www.it.mitindia.edu/assets/images/banner.png" alt="INFORMATION TECHNOLOGY">
+	</div>
+	<h2>SIGN UP</h2>
+	<div class="signup_details">
+		<form id="signupForm" method="post" action="" onsubmit="">
+			<fieldset>
+				<legend>Academic Details</legend>
+				
+				<div class="take">
+					<label>FULL NAME: <input type="text" name="fname" id="fname" placeholder="Full Name" required></label>
+				</div>
+				
+				<div class="take">
+					<label>REGISTRATION NUMBER: <input type="number" name="regno" id="regno" placeholder="Register Number" required></label>
+				</div>
+				<div class="take">
+					<label>YEAR OF JOINING:
+					<select required>
+						<option value="0">YEAR</option>
+						<option value="2023">2023</option>
+						<option value="2022">2022</option>
+						<option value="2021">2021</option>
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>
+					</select></label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Contact Details</legend>
+				<div class="take">
+					<label>CONTACT NUMBER: <input type="number" name="phone" id="phone" placeholder="Contact Number" required></label>
+				</div>
+				
+				<div class="take">
+					<label>EMAIL ID: <input type="email" name="email" id="email" placeholder="E-mail" required></label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Your Password</legend>
+				
+				<div class="take">
+					<label>CREATE PASSWORD: <input type="password" name="pass1" id="pass1" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{8,12}$" title="8 to 12 characters, one uppercase character, one lowercase character and one digit" required></label>
+				</div>
+				
+				<div class="take">
+					<label>CONFIRM PASSWORD: <input type="password" name="pass2" id="pass2" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{8,12}$" title="8 to 12 characters, one uppercase character, one lowercase character and one digit" required></label>
+				</div>
+			</fieldset>
+			<label style="font-size:1.3em"><input type="radio" id="notify">Notify me about new posts!</label><br>
+			<button onclick="val()">REGISTER</button>
+		</form>
+	</div>	
+</body>
+</html>

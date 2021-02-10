@@ -1,0 +1,55 @@
+
+body{
+	background:#A7F9ED/* #50E7D0*/;
+	background-image: linear-gradient(to left,#A7F9ED,#6696F5);
+	font-family: Cairo;
+	color: #0B0837;
+}
+h2{ 
+	text-align:center;
+}
+label{
+	color:#0D049B;
+	margin:5%;
+}
+legend{
+	margin:auto;
+	text-decoration: underline;
+}
+fieldset{
+	border:1px solid #A3B0BC;
+	margin:5%;
+}
+.take{
+	width:30%;
+	float:left;
+}
+input{
+	border:1px solid #A3B0BC;
+	border-radius: 18px;
+	display: block;
+	padding:2px;
+	margin-left:5%;
+}
+button{
+	border:1px solid #A3B0BC;
+	border-radius: 18px;
+	margin-left:50%;
+	font-family: Cairo;
+	width:200px;
+}
+select{
+	border:1px solid #A3B0BC;
+	border-radius: 18px;
+	display: block;
+	padding:2px;
+	margin-left:5%;
+}
+#topimg{
+	width:100%;
+	height:100px;
+	border-radius: 8px;
+}
+#notify{
+	display:inline;
+}
